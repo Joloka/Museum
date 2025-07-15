@@ -32,7 +32,7 @@
 }
 
 @mixin hover-transform($scale: 1.2) {
-  transition: transform $effectDuration;
+  transition: transform $effect-duration;
 
   @include hover {
     transform: scale($scale);
